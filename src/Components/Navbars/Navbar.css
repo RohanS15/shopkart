@@ -1,0 +1,130 @@
+.navbar1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    background: #1A1A1A;
+    
+    height: 42px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.vertical-line{
+    border-left: 1px solid #626262;
+}
+
+.word{
+    font-size: 13.2px;
+}
+.block1{
+    margin-left: 85px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.block1 img{
+    margin-top: 3.5px;
+    height: 12.9px;
+    width: 21px;
+}
+
+.block2{
+    margin-right: 90px;
+    gap: 25px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.lg{
+    display: flex;
+    gap: 55px;
+}
+
+.sm{
+    display: flex;
+    gap : 16px;
+    
+}
+
+.sm img{
+    display: flex;
+    gap: 31px;
+    
+}
+
+.f{
+    width: 4.97px;
+    height: 8.4px;
+    margin-top: 4.5px;
+}
+.l{
+   width: 8px;
+   height: 7.64px ;
+   margin-top: 4.5px;
+}
+.t{
+    
+    width: 7.6px;
+    height: 5.6px;
+    margin-top: 6px;
+}
+.i{
+    width: 8px;
+    height: 8px;
+    margin-top: 4.5px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.word{
+    color: #626262;
+}
+
+
+/* -------------------------RESPONSIVE ----------------------------- */
+
+@media only screen and (max-width: 465px) {
+
+    /* --------------NAV-------- */
+.follow{
+    display: none;
+}
+.word{
+    
+    position: relative;
+    width: 76px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.login{
+    position: relative;
+    left: 60px;
+    font-size: 12px;
+}
+.sm{
+    position: relative;
+    gap: 12px;
+    left: 8px;
+}
+
+.block1
+{
+    gap: 4px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+}

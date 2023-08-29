@@ -1,0 +1,59 @@
+
+@media only screen and (max-width: 465px){
+    .black{
+        position: absolute;
+        width: 100vw;
+        height: calc(100% - 47px);
+    }
+    .noise{
+        position: relative;
+        width: 100vw;
+        height: calc(100vh - 47px);
+    }
+    .shopkart{
+        top: 6%;
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        font-weight: 275;
+        margin-left: 20px;
+        width: 90vw;
+        padding-bottom: 5px;
+        border-bottom:1px solid white ;
+        font-family: 'Poppins', sans-serif;
+    }
+    .crr{
+        top: 6%;
+        position: absolute;
+        right: 0;
+        margin-top: 13px;
+        margin-right: 20px;
+    }
+    .menubar{
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+        font-size: 20px ;
+        align-items: center;
+        gap: 10%;
+        
+    }
+    .menubar a span{
+        color: white;
+    }
+    .dropdown{
+        line-height: 21px;
+        color: white;
+        width: 170px;
+    }
+    .contact span{
+        line-height: 21px;
+        width: 400px;
+        display: block;
+
+    }
+}
